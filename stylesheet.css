@@ -1,0 +1,301 @@
+header {
+  background-color: rgba(24, 22, 22, 0.89);
+  width:100%;
+  height:60px;
+  position:fixed;
+  top:0;
+  z-index: 8;
+  font-family: 'Vollkorn', serif;
+}
+
+.header-icon,img {
+  height:60px;
+  margin-left:30px;
+  float:left;
+}
+
+.header p {
+  color:white;
+  font-size:30px;
+  padding-left:30px;
+  padding-top:5px;
+  float:left;
+}
+
+.header ul {
+  padding-right:70px;
+  padding-top:5px;
+  font-size:20px;
+
+}
+
+.top-wrapper { 
+  height:1000px;
+  width:auto;
+  background-image: url(img/sample1.jpg);
+  background-size: cover;
+  min-height:300px;
+  background-repeat:no-repeat;
+  opacity: 0.7;
+  font-family: 'Vollkorn', serif;
+}
+
+
+
+.top-wrapper #p {
+  width:500px;
+  position:relative;
+  text-align: center;
+  padding-top:300px;
+  color:blue;
+  font-size:80px;
+  border-bottom: 2px solid black;
+  margin:0px 600px ;
+}
+
+.top-wrapper p{
+  color:blue;
+  text-align: center;
+  font-size:30px;
+  margin-top:10px;
+
+}
+
+.nav-link:hover {
+  background-color: white;
+  color:black;
+}
+
+
+.lesson-wrapper {
+  height:1000px;
+  position:relative;
+  background-image: url(img/sample2.jpg);
+  background-size: cover;
+  min-height:300px;
+  background-repeat:no-repeat;
+  opacity:0.8;
+  width:100%;
+  font-family: 'Vollkorn', serif;
+}
+
+.lesson-wrapper h1 {
+  position: relative;
+  color:blue;
+  padding-top: 100px;
+  font-size:100px;
+  text-align:center;
+
+}
+
+.lesson-wrapper ul {
+  color:rgb(7, 7, 7);
+  font-size:60px;
+  margin-left:250px;
+  margin-right:250px;
+  margin-top:30px;
+}
+
+.lesson-wrapper li {
+  border-bottom:2px solid rgb(10, 10, 10);
+  padding-top:30px;
+}
+
+.lesson-wrapper span {
+  display:inline-block;
+  color:rgb(248, 246, 246);
+  text-align: center;
+}
+
+.contents-wrapper {
+  height:1120px;
+  background-image: url(img/sample6.jpg);
+  background-size: cover;
+  min-height:300px;
+  background-repeat:no-repeat;
+  opacity:0.9;
+  width:100%;
+  
+}
+
+.contents-wrapper .Introduce {
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+  font-size:100px;
+  color:blue;
+  opacity:0.8;
+  padding-top:50px;
+  margin-bottom:0px;
+}
+
+.contents-wrapper .introduce {
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+  color:white;
+  font-size:30px;
+  background-color:rgba(10, 10, 10, 0.651);
+  margin:0px 400px;
+
+}
+
+.contents-wrapper .sample4 {
+  height:750px;
+  width:500px;
+  margin-top:100px;
+  margin-left:100px;
+  border: 10px solid rgba(249, 249, 252, 0.493);
+  display: flex;
+}
+
+.contents-wrapper .sample5 {
+  position: relative;
+  z-index:2;
+  height:180px;
+  width:180px;
+  border:8px solid rgba(255, 255, 0, 0.493);
+  left:525px;
+  top:20px;
+}
+
+.contents-wrapper ul {
+  color:rgba(0, 0, 255, 0.87);
+  font-family: 'Vollkorn', serif;
+  font-size:50px;
+  position: relative;
+  left:600px;
+  top:80px;
+  margin-left:180px;
+  margin-right:800px;
+  background-color:rgba(255, 255, 255, 0.63);
+  border-radius: 20px;
+}
+
+.contents-wrapper li {
+  padding-top:0px;
+  border-bottom: 2px solid black;
+  margin-bottom:30px;
+}
+
+.contents-wrapper .text {
+  color:black;
+  font-size:20px;
+  margin-bottom:0px;
+  padding-left:150px;
+}
+
+.contents-wrapper span {
+  font-size:30px;
+  color:rgba(0, 0, 0, 0.527);
+}
+
+.content {
+  color:blue;
+  font-family: 'Vollkorn', serif;
+  font-size:50px;
+  position: relative;
+  left:0px;
+  top:80px;
+  margin-left:780px;
+  margin-right:200px;
+  background-color:rgba(255, 255, 255, 0.63);
+  border-radius: 20px;
+}
+
+.content .icons {
+ color:blue;
+ display:inline-block;
+ transition:color 0.5s ease
+}
+
+.content .icons:hover {
+  color:red;
+}
+
+.content .sns {
+  text-align: center;
+  margin-bottom:0px;
+  font-family: 'Vollkorn', serif;
+  color:purple;
+}
+
+.snsicon {
+  letter-spacing: 25px;
+  text-align: center;
+  padding-left:30px;
+}
+
+.snstext {
+  margin-left:170px;
+  display: flex;
+  font-size:20px;
+}
+
+.snstext p {
+  padding-left:30px;
+  margin-bottom:0px;
+}
+
+.content #check {
+  font-size:30px;
+  color:black;
+  text-align: right;
+}
+
+.contact-form {
+  font-family: 'Vollkorn', serif;
+  height:1000px;
+  background-image: url(img/sample7.jpg);
+  background-size: cover;
+  opacity:0.8;
+}
+
+.contact-form h2 {
+  font-family: 'Vollkorn', serif;
+  text-align: center;
+  font-size:100px;
+  color:blue;
+  opacity:0.8;
+  padding-top:50px;
+  margin-bottom:0px;
+}
+
+.contact-form img {
+  height:530px;
+  width:530px;
+  border-radius: 20px;
+}
+
+.containers {
+  display:flex;
+}
+
+.container {
+  height:800px;
+  width:600px;
+}
+
+.container a {
+  margin-bottom:10px;
+}
+
+.container p {
+  color:blue;
+  font-size:60px;
+  text-align: center;
+}
+
+.container i {
+  padding-left:250px;
+  color:blue; 
+  transition: color 0.5s ease;
+}
+
+.container i:hover {
+  color:red;
+}
+
+.container .span {
+  font-size:30px;
+  color:rgba(2, 2, 2, 0.658);
+  padding-top:10px;
+}
